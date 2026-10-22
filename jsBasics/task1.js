@@ -9,3 +9,4 @@ console.log("Число:", score);
 console.log("Буль:", isPassed);
 console.log("Null:", selectedCourse);
 console.log("Undefined:", finalGrade);
+//в мене гітхаб байдики б'є
