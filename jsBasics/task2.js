@@ -1,0 +1,5 @@
+let personAge = 17;
+let isAdult = personAge >= 18;
+console.log("Зд.2");
+console.log("Вік особи:", personAge);
+console.log("Чи повнолітня особа:", isAdult);
