@@ -1,11 +1,11 @@
-const circleRadius = 5; 
-const circleArea = Math.PI * Math.pow(circleRadius, 2);
-console.log(`Площа кола: ${circleArea.toFixed(2)}`);
-const length = 10; 
-const width = 4;   
-const rectangleArea = length * width;
-console.log(`Площа прямокутника: ${rectangleArea.toFixed(2)}`);
-const cylinderRadius = 3; 
-const height = 8;         
-const cylinderVolume = Math.PI * Math.pow(cylinderRadius, 2) * height;
-console.log(`Об'єм циліндра: ${cylinderVolume.toFixed(2)}`);
+const number = 5;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${number} x ${i} = ${number * i}`);
+}
+
+let j = 1;
+while (j <= 10) {
+    console.log(`${number} x ${j} = ${number * j}`);
+    j++;
+}
